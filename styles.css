@@ -1,1 +1,11 @@
+#heading {
+    background-color: red;
+    text-align: center;
+    border: 10px;
+}
 
+.button {
+    border: 5px;
+    border-radius: 2px;
+    margin: 3px;
+}
