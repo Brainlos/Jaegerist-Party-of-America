@@ -1,11 +1,18 @@
 #heading {
+    color: white;
+    font-size: 50px;
     background-color: red;
     text-align: center;
-    border: 10px;
+    line-height: 70px;
+    height: 70px;
+    margin-bottom: 10px;
 }
 
 .button {
-    border: 5px;
-    border-radius: 2px;
-    margin: 3px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 5px solid blue;
+    margin-left: 10px;
 }
