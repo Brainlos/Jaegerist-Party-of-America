@@ -1,14 +1,17 @@
-quotes = [
+const quotes = [
     'idk',
     'still idk',
     'what do you want from me'
-]
+];
 
-quoteTxt = document.getElementById('quoteTxt')
+const quoteTxt = document.getElementById('quoteTxt');
+let i = 0;
 
-while (true) {
-    for (i = 0; i<length(quotes); i++) {
-        quoteTxt.innerText = quotes[i]
-        setTimeout(500)
-    }
+// Function to update the quote
+function updateQuote() {
+    quoteTxt.innerText = quotes[i];
+    i = (i + 1) % quotes.length; // Loop back to the start
 }
+
+// Change the quote every 500ms
+setInterval(updateQuote, 500);
